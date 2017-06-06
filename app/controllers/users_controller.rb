@@ -22,17 +22,16 @@ class UsersController < ApplicationController
 
   private
 
-    def user_params
-      params.require(:user).permit :name, :email, :password,
-        :password_confirmation
-    end
+  def user_params
+    params.require(:user).permit :name, :email, :password,
+      :password_confirmation
+  end
 
-    def load_user
-      @user = User.find_by id: params[:id]
+  def load_user
+    @user = User.find_by id: params[:id]
 
-      if @user.nil?
-        flash[:warning] = t ".not_found"
-        redirect_to root_path
-      end
-    end
+    return if @user
+    flash[:danger] = t ".not_found"
+    redirect_to root_path
+  end
 end
