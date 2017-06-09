@@ -51,3 +51,26 @@ en:
       new:
         sign_up: "Sign Up"
         this_is: "This will be a sign up page for new users."
+        sign_up_now: "Sign up now!"
+        create_account: "Create my account"
+        confirm: "Confirmation"
+        name: "name"
+        email: "email"
+        password: "password"
+        password_confirm: "password confirm"
+      create:
+        welcome: "Welcome to the Sample App"
+        error: "Can not save user"
+      show:
+        not_found: "Not found!"
+        success: "Find success"
+        welcome: "Welcome to the sample app"
+    shared:
+      error_messages:
+        the_form: "The form contains"
+        errors: "errors"
+    sessions:
+      new:
+        login: "Log in"
+        new_user: "New user?"
+

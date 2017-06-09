@@ -1,7 +1,9 @@
-user:
+users:
   name:
-    max: 50
+    max_length: 50
   email:
-    max: 255
+    max_length: 255
   password:
-    min: 6
+    min_length: 6
+  users_helper:
+    size_gravatar: 80
