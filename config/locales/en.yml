@@ -7,6 +7,7 @@ en:
         home: "Home"
         help: "Help"
         login: "Log in"
+        account: "Account"
       footer:
         the: "The"
         by: "by"
@@ -73,4 +74,7 @@ en:
       new:
         login: "Log in"
         new_user: "New user?"
-
+        signup_now: "Sign up now!"
+      create:
+        error_login: "Invalid email/password combination"
+        success_login: "Welcome to sample App"
