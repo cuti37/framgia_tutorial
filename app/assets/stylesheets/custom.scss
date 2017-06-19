@@ -4,7 +4,6 @@
 $dark-gray: #eaeaea;
 $gray-1: #555;
 $gray-2: #222;
-$gray-3: #bbb;
 $light-gray: #777;
 $white: #fff;
 
@@ -131,6 +130,19 @@ input {
   }
 }
 
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    font-weight: normal;
+    margin-left: 20px;
+  }
+}
+.session-remember-me {
+  width: auto;
+  margin-left: 0;
+}
+
 /* sidebar */
 aside {
   section.user_info {
@@ -164,3 +176,15 @@ aside {
     margin-top: 15px;
   }
 }
+
+/* User index */
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    border-bottom: 1px solid $dark-gray;
+    overflow: auto;
+    padding: 10px 0;
+  }
+}
+

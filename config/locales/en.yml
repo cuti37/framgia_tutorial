@@ -8,6 +8,7 @@ en:
         help: "Help"
         login: "Log in"
         account: "Account"
+        setting: "Setting"
       footer:
         the: "The"
         by: "by"
@@ -64,17 +65,29 @@ en:
         error: "Can not save user"
       show:
         not_found: "Not found!"
-        success: "Find success"
-        welcome: "Welcome to the sample app"
+      edit:
+        log_in_please: "Please, log in"
+        sign_up: "Sign Up"
+        update_user: "Update user"
+      update:
+        update_success: "Update success"
+        update_error: "Update error"
+      destroy:
+        delete_success: "Delete success"
+      user:
+        delete: "Delete"
+        you_sure: "Delete user, you sure?"
+      index:
+        all_users: "All users"
     shared:
       error_messages:
         the_form: "The form contains"
-        errors: "errors"
     sessions:
       new:
         login: "Log in"
         new_user: "New user?"
         signup_now: "Sign up now!"
+        remember: "Remember me on this computer"
       create:
         error_login: "Invalid email/password combination"
         success_login: "Welcome to sample App"
