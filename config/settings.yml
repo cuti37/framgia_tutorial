@@ -7,3 +7,5 @@ users:
     min_length: 6
 user:
   user_per_page: 5
+  users_helper:
+    size_gravatar: 80

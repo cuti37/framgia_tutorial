@@ -7,7 +7,7 @@ $gray-2: #222;
 $light-gray: #777;
 $white: #fff;
 
-/* universal */
+/* universal*/
 body{
   padding-top: 60px
 }
@@ -106,7 +106,7 @@ footer {
 /* forms */
 input, textarea, select, .uneditable-input {
   @include box_sizing;
-  border: 1px solid #bbb;
+  border: 1px solid $gray-3;
   margin-bottom: 15px;
   width: 100%;
 }
@@ -142,6 +142,7 @@ input {
   width: auto;
   margin-left: 0;
 }
+
 /* sidebar */
 aside {
   section.user_info {
@@ -175,6 +176,7 @@ aside {
     margin-top: 15px;
   }
 }
+
 /* User index */
 .users {
   list-style: none;
@@ -185,3 +187,4 @@ aside {
     padding: 10px 0;
   }
 }
+

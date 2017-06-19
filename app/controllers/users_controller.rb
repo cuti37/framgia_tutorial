@@ -23,7 +23,7 @@ class UsersController < ApplicationController
       flash[:success] = t ".welcome"
       redirect_to @user
     else
-      flash[:danger] = t ".error"
+      flash.now[:danger] = t ".error"
       render :new
     end
   end

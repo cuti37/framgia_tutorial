@@ -53,6 +53,13 @@ en:
       new:
         sign_up: "Sign Up"
         this_is: "This will be a sign up page for new users."
+        sign_up_now: "Sign up now!"
+        create_account: "Create my account"
+        confirm: "Confirmation"
+        name: "name"
+        email: "email"
+        password: "password"
+        password_confirm: "password confirm"
       create:
         welcome: "Welcome to the Sample App"
         error: "Can not save user"
@@ -84,4 +91,3 @@ en:
       create:
         error_login: "Invalid email/password combination"
         success_login: "Welcome to sample App"
-

@@ -5,7 +5,7 @@
     <%= link_to t(".rails"), "http://www.railstutorial.org/" %>
     <%= t ".sample_app" %>
   </h2>
-  <% if !logged_in?  %>
+  <% unless logged_in? %>
     <%= link_to t(".signup"), signup_path, class: "btn btn-lg btn-primary" %>
   <% end %>
 </div>
