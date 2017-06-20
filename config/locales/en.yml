@@ -63,6 +63,7 @@ en:
       create:
         welcome: "Welcome to the Sample App"
         error: "Can not save user"
+        check_email: "Please check your email to activate your account"
       show:
         not_found: "Not found!"
       edit:
@@ -95,3 +96,16 @@ en:
       create:
         error_login: "Invalid email/password combination"
         success_login: "Welcome to sample App"
+        message_not_actived: "Account not activated. Check your email
+        for the activation link."
+    account_activations:
+      edit:
+        activated_success: "Active success"
+        account_activation: "Account activation"
+    user_mailer:
+      account_activation:
+        tile_account_activation: "Sample App"
+        hi: "Hi"
+        welcome_account_activation: "Welcome to the Sample App,
+        Click on the link below to activate your account:"
+

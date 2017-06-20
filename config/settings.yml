@@ -9,3 +9,6 @@ users:
     size_gravatar: 80
 user:
   user_per_page: 5
+sessions:
+  create:
+    remember: "1"
