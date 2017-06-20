@@ -106,7 +106,7 @@ footer {
 /* forms */
 input, textarea, select, .uneditable-input {
   @include box_sizing;
-  border: 1px solid $gray-3;
+  border: 1px solid $light-gray;
   margin-bottom: 15px;
   width: 100%;
 }

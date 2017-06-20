@@ -79,9 +79,13 @@ en:
         you_sure: "Delete user, you sure?"
       index:
         all_users: "All users"
+        log_in_please: "Log in,please"
+      form:
+        submit: "Create my account"
     shared:
       error_messages:
         the_form: "The form contains"
+        errors: "errors"
     sessions:
       new:
         login: "Log in"
