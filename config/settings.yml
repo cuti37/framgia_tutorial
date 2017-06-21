@@ -7,8 +7,17 @@ users:
     min_length: 6
   users_helper:
     size_gravatar: 80
+  password_reset_expired: 2
 user:
   user_per_page: 5
 sessions:
   create:
     remember: "1"
+seed:
+  total_users: 99
+  total_microposts: 50
+micropost:
+  max_length: 140
+  size_gravatar: 50
+  micropost_per_page: 5
+  link_book_home: "http://www.railstutorial.org/"
