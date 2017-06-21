@@ -12,7 +12,26 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
 //= require turbolinks
 //= require_tree .
-//= require bootstrap
-
+$(".btn").click(function(event) {
+  /* Act on the event */
+  event.preventDefault();
+  var id = $("#followed_id").val();
+   $.ajax({
+      url: '/relationships',
+      type: 'POST',
+      dataType: 'json',
+      data: {followed_id: id},
+    })
+    .done(function(data) {
+      alert(data);
+    })
+    .fail(function() {
+      alert("error");
+    })
+    .always(function() {
+      console.log("complete");
+    });
+});
